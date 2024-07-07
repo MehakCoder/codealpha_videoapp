@@ -2,8 +2,7 @@ import React, { Children, ReactNode } from 'react'
 
 const Rootlayout = ( {children} : {children: ReactNode}) => {
   return (
-    <main>
-      Navbar  
+    <main> 
       {children}
       Footer
     </main>
