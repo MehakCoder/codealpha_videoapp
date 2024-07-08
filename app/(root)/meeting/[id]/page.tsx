@@ -1,3 +1,4 @@
+'use client';
 import React from 'react'
 
 const Meeting = ({ params }: { params: { id: string } }) => {
@@ -5,5 +6,6 @@ const Meeting = ({ params }: { params: { id: string } }) => {
     <div>Meeting Room: #{params.id}</div>
   )
 }
+
 
 export default Meeting
