@@ -87,37 +87,6 @@
     background: rgba(18, 17, 17, 0.25);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-  }
-
-  /* ==== clerk class override ===== */
-  .cl-providerIcon__githhub {
-    filter: invert(1);
-  }
-  .cl-userButtonPopoverActionButtonIcon {
-    color: white;
-  }
-
-  .cl-logoBox {
-    height: 40px;
-  }
-  .cl-dividerLine {
-    background: #252a41;
-    height: 2px;
-  }
-
-  .cl-socialButtonsIconButton {
-    border: 3px solid #565761;
-  }
-
-  .cl-internal-wkkub3 {
-    color: white;
-  }
-  .cl-userButtonPopoverActionButton {
-    color: white;
-  }
-
-  /* =============================== */
-
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
@@ -148,12 +117,4 @@
     --ring: 212.7 26.8% 83.9%;
   }
 }
-
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
 }
